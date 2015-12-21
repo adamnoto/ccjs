@@ -6,6 +6,20 @@ transform a text field into a credit-card field with proper spacing.
 
 ![ccjs in action](https://cloud.githubusercontent.com/assets/166730/11923261/851ca5c4-a7d3-11e5-8b94-02ccc302d661.png)
 
+## Installation
+
+Can simply download the files required from this repo, those files are:
+
+1. The PNG
+2. The CSS
+3. The JavaScript
+
+Or use bower:
+
+```
+bower install ccjs
+```
+
 ## Usage
 
 Import the CSS and Javascript accordingly, to your HTML document. And then
