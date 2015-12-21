@@ -29,12 +29,29 @@ invoke the following code:
 $(".my-credit-card-field").makeCreditCardField()
 ```
 
-Probably using jQuery:
+Probably use after the document done loading:
 
 ```javascript
 $(document).ready(function() {
   $(".my-credit-card-field").makeCreditCardField()
 })
+```
+
+Keep in mind that before calling `.makeCreditCardField` on an arbitrary text field,
+the entire code of CCJS javascript file has to interpreted first, otherwise,
+your attempt to call `makeCreditCardField` on the element will fail instead.
+
+If you are using Rails and Sprockets, simply require the file before other files
+that depend on it.
+
+For example:
+
+```javascript
+//= require jquery
+//= require jquery_ujs
+//= require credit_card_field
+//= require bootstrap.min
+//= require_tree .
 ```
 
 ## Cards for you to try
