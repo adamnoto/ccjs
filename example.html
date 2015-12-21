@@ -1,0 +1,25 @@
+<html>
+   <head>
+      <title>Usage example of ccjs</title>
+      <script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+      <script type='text/javascript' src='credit_card_field.js'></script>
+      <link rel='stylesheet' type='text/css' href='credit_card_field.css'>
+   </head>
+   <body>
+      Credit Card Number:<br/>
+      <input type="text" id="credit_card_field">
+
+      <script type='text/javascript'>
+        $(document).ready(function() {
+          $("#credit_card_field").makeCreditCardField()
+        })
+      </script>
+
+      <style type='text/css'>
+        #credit_card_field {
+          font-size: 17px;
+          width: 500px;
+        }
+      </style>
+   </body>
+</html>
