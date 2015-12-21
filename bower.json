@@ -1,0 +1,31 @@
+{
+  "name": "ccjs",
+  "homepage": "https://github.com/saveav/ccjs",
+  "authors": [
+    "Adam Pahlevi <adam.pahlevi@gmail.com>",
+    "Colin Stannard <colin@cbsindustries.com>"
+  ],
+  "description": "Simply transform a text-field into credit-card field with proper spacing and icon",
+  "main": "credit_card_field.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "credit-card",
+    "credit card",
+    "card",
+    "ccjs",
+    "credit card input"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">= 1.11.1"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
